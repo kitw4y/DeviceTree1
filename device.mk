@@ -13,7 +13,8 @@ DEVICE_PACKAGE_OVERLAYS += \
 
 PRODUCT_PACKAGES += \
     FrameworksResOverlayLancelot \
-    SystemUIOverlayLancelot
+    SystemUIOverlayLancelot \
+    SettingsResLancelot
 
 # Rootdir
 PRODUCT_PACKAGES += \
