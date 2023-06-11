@@ -14,6 +14,7 @@ $(call inherit-product, device/xiaomi/lancelot/device.mk)
 # Inherit some common DerpFest stuff.
 $(call inherit-product, vendor/derp/config/common_full_phone.mk)
 USE_LEGACY_BOOTANIMATION := true
+DERP_BUILDTYPE := Official
 
 PRODUCT_NAME := derp_lancelot
 PRODUCT_DEVICE := lancelot
