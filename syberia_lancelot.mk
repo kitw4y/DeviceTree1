@@ -14,7 +14,10 @@ $(call inherit-product, device/xiaomi/lancelot/device.mk)
 # Inherit some common Syberia stuff.
 $(call inherit-product, vendor/syberia/common.mk)
 
-PRODUCT_NAME := aosp_lancelot
+# Gapps
+WITH_GMS=true
+
+PRODUCT_NAME := syberia_lancelot
 PRODUCT_DEVICE := lancelot
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_BRAND := Redmi
