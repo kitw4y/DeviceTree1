@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_lancelot.mk
+    $(LOCAL_DIR)/syberia_lancelot.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_lancelot-user \
-    aosp_lancelot-userdebug \
-    aosp_lancelot-eng
+    syberia_lancelot-user \
+    syberia_lancelot-userdebug \
+    syberia_lancelot-eng
